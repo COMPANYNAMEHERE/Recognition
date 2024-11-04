@@ -27,7 +27,7 @@ A PyQt6-based desktop application for real-time video analysis using YOLOv8 obje
 - Working cancel button.
 - Persistence.
 - Progress bar ETA.
-- Fix save results.
+- Working save results.
 
 ## Installation
 
