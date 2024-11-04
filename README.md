@@ -198,20 +198,22 @@ To contribute to development:
 ## Troubleshooting
 
 Common issues and solutions:
+**Can't install requirements**
+   - Run Python 3.10
 
-1. **GPU not detected**:
+**GPU not detected**:
 
    - Ensure NVIDIA drivers are installed.
    - Verify CUDA installation.
    - Check PyTorch/TensorFlow GPU support.
 
-2. **Memory issues**:
+**Memory issues**:
 
    - Reduce batch size in settings.
    - Lower maximum image size.
    - Close other GPU applications.
 
-3. **Video loading fails**:
+**Video loading fails**:
 
    - Check supported video formats.
    - Ensure video file isn't corrupted.
