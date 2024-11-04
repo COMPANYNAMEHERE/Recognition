@@ -34,8 +34,8 @@ A PyQt6-based desktop application for real-time video analysis using YOLOv8 obje
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/video-recognition-program.git
-   cd video-recognition-program
+   git clone https://github.com/yourusername/Recognition.git
+   cd recognition
    ```
 
 2. Create and activate a virtual environment:
