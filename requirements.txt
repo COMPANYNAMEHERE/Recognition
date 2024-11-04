@@ -1,0 +1,38 @@
+# Core dependencies
+PyQt6>=6.5.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+torch>=2.0.0
+torchvision>=0.15.0
+ultralytics>=8.0.0  # For YOLOv8
+psutil>=5.9.0
+
+# Face and emotion detection
+deepface>=0.0.75
+mediapipe>=0.10.0
+tensorflow>=2.13.0  # Required for DeepFace
+tf-keras>=2.13.0    # Required for DeepFace
+keras>=2.13.0       # Required for DeepFace
+
+# Image processing
+Pillow>=10.0.0
+
+# Progress bars and utilities
+tqdm>=4.65.0
+
+# Optional - CUDA support for PyTorch (uncomment if using NVIDIA GPU)
+torch-cuda==12.1  # Replace with your CUDA version
+
+# CUDA support for TensorFlow (optional, for GPU acceleration of face detection)
+tensorflow-gpu>=2.13.0
+
+# Development tools (optional)
+pytest>=7.4.0
+black>=23.7.0
+pylint>=2.17.5
+
+# Additional dependencies for DeepFace
+gdown>=4.7.1
+mtcnn>=0.1.1
+retina-face>=0.0.13
+fire>=0.5.0

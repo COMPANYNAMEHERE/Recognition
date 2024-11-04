@@ -1,0 +1,10 @@
+{
+    "confidence_threshold": 0.01,
+    "use_gpu": true,
+    "model": "yolov8l",
+    "save_path": "detections",
+    "max_image_size": 1280,
+    "batch_size": 4,
+    "enable_optimization": true,
+    "cache_results": true
+}
